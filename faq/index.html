@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Semi‑Private Flights FAQ | Fly Swift Tail</title>
+  <meta name="description" content="Plain‑English answers for first‑time semi‑private flyers. Pets, luggage, pricing, booking, and alerts.">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--ink:#111;--ink2:#555;--ink3:#777;--line:#e5e5e5;--bg:#fff;--radius:14px;}
+    *{box-sizing:border-box}
+    html,body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+    a{color:var(--ink);text-decoration:none}
+    header{position:sticky;top:0;background:rgba(255,255,255,.94);backdrop-filter:saturate(180%) blur(8px);border-bottom:1px solid var(--line)}
+    .nav{max-width:960px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:12px 16px}
+    .logo{font-weight:700}
+    .container{max-width:960px;margin:0 auto;padding:16px}
+    .h1{font-size:28px;line-height:1.15;margin:12px 0 10px}
+    .sub{color:var(--ink2);font-size:14px;margin:0 0 10px}
+    .card{background:#fff;border:1px solid var(--line);border-radius:var(--radius)}
+    .faq{list-style:none;margin:0;padding:0}
+    .item{border-bottom:1px solid var(--line)}
+    .q{width:100%;background:#fff;border:0;display:flex;gap:10px;align-items:center;justify-content:space-between;padding:16px;font-size:16px;text-align:left;cursor:pointer}
+    .q span{flex:1}
+    .a{display:none;padding:0 16px 16px;color:var(--ink2);font-size:15px;line-height:1.5}
+    .chev{transition:transform .18s ease}
+    .open .a{display:block}
+    .open .chev{transform:rotate(180deg)}
+    .foot{color:var(--ink3);font-size:12px;margin-top:12px}
+    .cta{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--ink);border-radius:12px;padding:10px 12px}
+    @media(min-width:720px){.h1{font-size:34px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="logo">Fly Swift Tail</div>
+      <a class="cta" href="/">← Back to search</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="h1">Frequently asked questions</h1>
+    <p class="sub">Dead simple answers for first‑time semi‑private flyers.</p>
+
+    <section class="card">
+      <ul class="faq" id="faq">
+        <li class="item">
+          <button class="q" aria-expanded="false">
+            <span>What is a semi‑private flight?</span>
+            <svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="a">Book‑by‑the‑seat on small private aircraft. You use private terminals (FBOs), skip long lines, and share the cabin with a few other passengers.</div>
+        </li>
+        <li class="item">
+          <button class="q" aria-expanded="false">
+            <span>How is it different from charter or first class?</span>
+            <svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2"/></svg>
+          </button>
+          <div class="a">Charter = you rent the whole aircraft. First class = big airline cabin. Semi‑private = you buy a seat on a small private plane that has a set schedule or frequent shuttles.</div>
+        </li>
+        <li class="item">
+          <button class="q" aria-expanded="false">
+            <span>Where do flights depart from?</span>
+            <svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2"/></svg>
+          </button>
+          <div class="a">Usually private terminals (FBOs) near major cities—less walking, fewer crowds. We’ll show the FBO name when you request seats.</div>
+        </li>
+        <li class="item">
+          <button class="q" aria-expanded="false">
+            <span>What about luggage?</span>
+            <svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2"/></svg>
+          </button>
+          <div class="a">Bags are limited due to aircraft size. Typical allowance: one small carry‑on + personal item; larger items may require advance approval. Tell us what you’ll bring and we’ll match policies.</div>
+        </li>
+        <li class="item">
+          <button class="q" aria-expanded="false">
+            <span>Can I bring my pet?</span>
+            <svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2"/></svg>
+          </button>
+          <div class="a">Many semi‑private operators allow pets with limits (size/kennel/fee). Toggle “Pets” in the search and we’ll only surface pet‑friendly options.</div>
+        </li>
+        <li class="item">
+          <button class="q" aria-expanded="false">
+            <span>How much does it cost?</span>
+            <svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2"/></svg>
+          </button>
+          <div class="a">Pricing varies by route and season. Use a budget per seat in the form or tap “Explore deals.” We’ll also notify you when prices drop on a route you track.</div>
+        </li>
+        <li class="item">
+          <button class="q" aria-expanded="false">
+            <span>How do I book?</span>
+            <svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2"/></svg>
+          </button>
+          <div class="a">Submit the form to request seats. We route your request to an operator/broker and send you a link to complete booking directly with them.</div>
+        </li>
+        <li class="item">
+          <button class="q" aria-expanded="false">
+            <span>What ID or security is required?</span>
+            <svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2"/></svg>
+          </button>
+          <div class="a">You’ll still need government ID. Screening is at the FBO and is typically faster than commercial terminals.</div>
+        </li>
+        <li class="item">
+          <button class="q" aria-expanded="false">
+            <span>What if my dates are flexible?</span>
+            <svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2"/></svg>
+          </button>
+          <div class="a">Turn on “Flexible dates” in the form and we’ll search ±3 days and set a price alert for that window.</div>
+        </li>
+        <li class="item">
+          <button class="q" aria-expanded="false">
+            <span>How do I get alerts?</span>
+            <svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2"/></svg>
+          </button>
+          <div class="a">Create an alert from the form or deals page. We’ll email/SMS when seats appear or prices change on your route.</div>
+        </li>
+      </ul>
+    </section>
+
+    <p class="foot">Note: Availability & prices change quickly. Always confirm details with the operator before paying.</p>
+  </main>
+
+  <script>
+    (function(){
+      const list = document.getElementById('faq');
+      list.addEventListener('click', function(e){
+        const btn = e.target.closest('.q');
+        if(!btn) return;
+        const li = btn.parentElement;
+        const open = li.classList.contains('open');
+        Array.from(list.children).forEach(x=>{ x.classList.remove('open'); x.querySelector('.q').setAttribute('aria-expanded','false'); });
+        if(!open){ li.classList.add('open'); btn.setAttribute('aria-expanded','true'); }
+      });
+    })();
+  </script>
+</body>
+</html>
